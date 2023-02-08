@@ -1,13 +1,36 @@
-* {
+/* * {
     margin : 10px;
     padding : 2px;
  
- }
+ } */
 
- div {
+ /* div {
     margin : 2px;
     background-color: grey;
     padding: 2px;
     margin : 2px;
 
+ } */
+
+  /* .address, .social-icon-links, .nav-bar {
+
+   background-color: red;
+  } */
+
+ /* 725AC1 slate blue
+  tropical indigo 8D86C9
+  french grey CAC4CE */
+
+
+ 
+  :root {
+   --main-bg-color: #242038;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .nav-custom {
+   --bs-navbar-padding-y: 0;
+   background-color: #242038;
+   color: #F7ECE1;
+   --bs-emphasis-color-rgb: #fff;
  }
